@@ -1,9 +1,9 @@
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View } from "react-native";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Hello Capstone</Text>
+      <Text style={styles.text}>Hello Capstone</Text>
     </View>
   );
 }
@@ -11,13 +11,12 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
   },
   text: {
-    fontSize: 25,
+    fontSize: 35,
     fontWeight: 600,
   },
 });
-
